@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C0281F967EB876E778DF6A /* Pods_zebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A1D5AF6A1215522654B44C /* Pods_zebra.framework */; };
+		442CE373CD5CB6CE316611C0 /* Pods_zebraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3995E1843764567A6B16BD /* Pods_zebraTests.framework */; };
+		65F414B88F965C9BF8736A33 /* Pods_zebra_zebraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB9C94E0BF25C071930A935 /* Pods_zebra_zebraUITests.framework */; };
+		EE0CEA8925D055ED00C8F950 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA8825D055ED00C8F950 /* PhoneNumberKit */; };
+		EE0CEA9725D058D600C8F950 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA9625D058D600C8F950 /* iPhoneNumberField */; };
+		EE0CEA9D25D064B800C8F950 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA9C25D064B800C8F950 /* NavigationStack */; };
+		EE0CEAA225D0653E00C8F950 /* LicenseAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CEAA125D0653E00C8F950 /* LicenseAgreement.swift */; };
+		EE0CEAAB25D0683D00C8F950 /* LicenseAgreement2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CEAAA25D0683D00C8F950 /* LicenseAgreement2.swift */; };
+		EE0CEAB025D0687700C8F950 /* LicenseAgreement3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CEAAF25D0687700C8F950 /* LicenseAgreement3.swift */; };
+		EE5668A125D2890D003E592C /* InputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5668A025D2890D003E592C /* InputText.swift */; };
+		EE612B9425D295E0009EF73E /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = EE612B9325D295E0009EF73E /* SwiftUIX */; };
+		EE612B9925D2AF80009EF73E /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE612B9825D2AF80009EF73E /* Instructions.swift */; };
+		EE6173F625D1B8B800BC5314 /* CodeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6173F525D1B8B800BC5314 /* CodeEntry.swift */; };
+		EED031A025D30A0000F103D0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0319F25D30A0000F103D0 /* HomeScreen.swift */; };
+		EED6423E25CB2BEE0060A5DC /* zebraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6423D25CB2BEE0060A5DC /* zebraApp.swift */; };
+		EED6424025CB2BEE0060A5DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6423F25CB2BEE0060A5DC /* ContentView.swift */; };
+		EED6424225CB2BEF0060A5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED6424125CB2BEF0060A5DC /* Assets.xcassets */; };
+		EED6424525CB2BEF0060A5DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED6424425CB2BEF0060A5DC /* Preview Assets.xcassets */; };
+		EED6425025CB2BEF0060A5DC /* zebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6424F25CB2BEF0060A5DC /* zebraTests.swift */; };
+		EED6425B25CB2BEF0060A5DC /* zebraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6425A25CB2BEF0060A5DC /* zebraUITests.swift */; };
+		EED6427A25CB2C580060A5DC /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6426D25CB2C580060A5DC /* Roboto-Medium.ttf */; };
+		EED6427B25CB2C580060A5DC /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6426E25CB2C580060A5DC /* Roboto-Light.ttf */; };
+		EED6427C25CB2C580060A5DC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6426F25CB2C580060A5DC /* Roboto-Regular.ttf */; };
+		EED6427D25CB2C580060A5DC /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427025CB2C580060A5DC /* Roboto-MediumItalic.ttf */; };
+		EED6427E25CB2C580060A5DC /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427125CB2C580060A5DC /* Roboto-ThinItalic.ttf */; };
+		EED6427F25CB2C580060A5DC /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427225CB2C580060A5DC /* Roboto-BoldItalic.ttf */; };
+		EED6428025CB2C580060A5DC /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427325CB2C580060A5DC /* Roboto-LightItalic.ttf */; };
+		EED6428125CB2C580060A5DC /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427425CB2C580060A5DC /* Roboto-Italic.ttf */; };
+		EED6428225CB2C580060A5DC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = EED6427525CB2C580060A5DC /* LICENSE.txt */; };
+		EED6428325CB2C580060A5DC /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427625CB2C580060A5DC /* Roboto-BlackItalic.ttf */; };
+		EED6428425CB2C580060A5DC /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427725CB2C580060A5DC /* Roboto-Bold.ttf */; };
+		EED6428525CB2C580060A5DC /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427825CB2C580060A5DC /* Roboto-Thin.ttf */; };
+		EED6428625CB2C580060A5DC /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED6427925CB2C580060A5DC /* Roboto-Black.ttf */; };
+		EED6428E25CB2D8A0060A5DC /* NumberEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6428D25CB2D8A0060A5DC /* NumberEntry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EED6424C25CB2BEF0060A5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED6423225CB2BEE0060A5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED6423925CB2BEE0060A5DC;
+			remoteInfo = zebra;
+		};
+		EED6425725CB2BEF0060A5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED6423225CB2BEE0060A5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED6423925CB2BEE0060A5DC;
+			remoteInfo = zebra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043E14A3C97C49C821746E60 /* Pods-zebra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zebra.release.xcconfig"; path = "Target Support Files/Pods-zebra/Pods-zebra.release.xcconfig"; sourceTree = "<group>"; };
+		1CB9C94E0BF25C071930A935 /* Pods_zebra_zebraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zebra_zebraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FB11969B205DE20AE5CA6E /* Pods-zebraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zebraTests.debug.xcconfig"; path = "Target Support Files/Pods-zebraTests/Pods-zebraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F636CB8EF7627CA18CDEEEB /* Pods-zebra-zebraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zebra-zebraUITests.release.xcconfig"; path = "Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53A1D5AF6A1215522654B44C /* Pods_zebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3995E1843764567A6B16BD /* Pods_zebraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zebraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D617E635225576E3D34E357 /* Pods-zebra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zebra.debug.xcconfig"; path = "Target Support Files/Pods-zebra/Pods-zebra.debug.xcconfig"; sourceTree = "<group>"; };
+		9585A57DFA9A96C9193E439C /* Pods-zebraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zebraTests.release.xcconfig"; path = "Target Support Files/Pods-zebraTests/Pods-zebraTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE0CEAA125D0653E00C8F950 /* LicenseAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreement.swift; sourceTree = "<group>"; };
+		EE0CEAAA25D0683D00C8F950 /* LicenseAgreement2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreement2.swift; sourceTree = "<group>"; };
+		EE0CEAAF25D0687700C8F950 /* LicenseAgreement3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseAgreement3.swift; sourceTree = "<group>"; };
+		EE5668A025D2890D003E592C /* InputText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputText.swift; sourceTree = "<group>"; };
+		EE612B9825D2AF80009EF73E /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		EE6173F525D1B8B800BC5314 /* CodeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEntry.swift; sourceTree = "<group>"; };
+		EED0319F25D30A0000F103D0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		EED6423A25CB2BEE0060A5DC /* zebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zebra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6423D25CB2BEE0060A5DC /* zebraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zebraApp.swift; sourceTree = "<group>"; };
+		EED6423F25CB2BEE0060A5DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EED6424125CB2BEF0060A5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED6424425CB2BEF0060A5DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EED6424625CB2BEF0060A5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED6424B25CB2BEF0060A5DC /* zebraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6424F25CB2BEF0060A5DC /* zebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zebraTests.swift; sourceTree = "<group>"; };
+		EED6425125CB2BEF0060A5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED6425625CB2BEF0060A5DC /* zebraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zebraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6425A25CB2BEF0060A5DC /* zebraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zebraUITests.swift; sourceTree = "<group>"; };
+		EED6425C25CB2BEF0060A5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED6426D25CB2C580060A5DC /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EED6426E25CB2C580060A5DC /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		EED6426F25CB2C580060A5DC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EED6427025CB2C580060A5DC /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EED6427125CB2C580060A5DC /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EED6427225CB2C580060A5DC /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EED6427325CB2C580060A5DC /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		EED6427425CB2C580060A5DC /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		EED6427525CB2C580060A5DC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		EED6427625CB2C580060A5DC /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EED6427725CB2C580060A5DC /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		EED6427825CB2C580060A5DC /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		EED6427925CB2C580060A5DC /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		EED6428D25CB2D8A0060A5DC /* NumberEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberEntry.swift; sourceTree = "<group>"; };
+		F39EDAA7363E65719A0C0594 /* Pods-zebra-zebraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zebra-zebraUITests.debug.xcconfig"; path = "Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED6423725CB2BEE0060A5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0CEA8925D055ED00C8F950 /* PhoneNumberKit in Frameworks */,
+				EE0CEA9D25D064B800C8F950 /* NavigationStack in Frameworks */,
+				EE0CEA9725D058D600C8F950 /* iPhoneNumberField in Frameworks */,
+				EE612B9425D295E0009EF73E /* SwiftUIX in Frameworks */,
+				28C0281F967EB876E778DF6A /* Pods_zebra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6424825CB2BEF0060A5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442CE373CD5CB6CE316611C0 /* Pods_zebraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6425325CB2BEF0060A5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F414B88F965C9BF8736A33 /* Pods_zebra_zebraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B857CAEDA745FF1603A689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A1D5AF6A1215522654B44C /* Pods_zebra.framework */,
+				1CB9C94E0BF25C071930A935 /* Pods_zebra_zebraUITests.framework */,
+				6A3995E1843764567A6B16BD /* Pods_zebraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968CCBAEB40921CD51A22520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D617E635225576E3D34E357 /* Pods-zebra.debug.xcconfig */,
+				043E14A3C97C49C821746E60 /* Pods-zebra.release.xcconfig */,
+				F39EDAA7363E65719A0C0594 /* Pods-zebra-zebraUITests.debug.xcconfig */,
+				3F636CB8EF7627CA18CDEEEB /* Pods-zebra-zebraUITests.release.xcconfig */,
+				27FB11969B205DE20AE5CA6E /* Pods-zebraTests.debug.xcconfig */,
+				9585A57DFA9A96C9193E439C /* Pods-zebraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE0CEAA625D0680400C8F950 /* LicenseAgreement */ = {
+			isa = PBXGroup;
+			children = (
+				EE0CEAA125D0653E00C8F950 /* LicenseAgreement.swift */,
+				EE0CEAAA25D0683D00C8F950 /* LicenseAgreement2.swift */,
+				EE0CEAAF25D0687700C8F950 /* LicenseAgreement3.swift */,
+			);
+			path = LicenseAgreement;
+			sourceTree = "<group>";
+		};
+		EE0CEAB425D06C3D00C8F950 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EED6423125CB2BEE0060A5DC = {
+			isa = PBXGroup;
+			children = (
+				EED6423C25CB2BEE0060A5DC /* zebra */,
+				EED6424E25CB2BEF0060A5DC /* zebraTests */,
+				EED6425925CB2BEF0060A5DC /* zebraUITests */,
+				EED6423B25CB2BEE0060A5DC /* Products */,
+				968CCBAEB40921CD51A22520 /* Pods */,
+				86B857CAEDA745FF1603A689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EED6423B25CB2BEE0060A5DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED6423A25CB2BEE0060A5DC /* zebra.app */,
+				EED6424B25CB2BEF0060A5DC /* zebraTests.xctest */,
+				EED6425625CB2BEF0060A5DC /* zebraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED6423C25CB2BEE0060A5DC /* zebra */ = {
+			isa = PBXGroup;
+			children = (
+				EE0CEAB425D06C3D00C8F950 /* Models */,
+				EED6428A25CB2D5C0060A5DC /* Pages */,
+				EED6426B25CB2C460060A5DC /* Fonts */,
+				EED6423D25CB2BEE0060A5DC /* zebraApp.swift */,
+				EED6423F25CB2BEE0060A5DC /* ContentView.swift */,
+				EED6424125CB2BEF0060A5DC /* Assets.xcassets */,
+				EED6424625CB2BEF0060A5DC /* Info.plist */,
+				EED6424325CB2BEF0060A5DC /* Preview Content */,
+			);
+			path = zebra;
+			sourceTree = "<group>";
+		};
+		EED6424325CB2BEF0060A5DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EED6424425CB2BEF0060A5DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EED6424E25CB2BEF0060A5DC /* zebraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EED6424F25CB2BEF0060A5DC /* zebraTests.swift */,
+				EED6425125CB2BEF0060A5DC /* Info.plist */,
+			);
+			path = zebraTests;
+			sourceTree = "<group>";
+		};
+		EED6425925CB2BEF0060A5DC /* zebraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EED6425A25CB2BEF0060A5DC /* zebraUITests.swift */,
+				EED6425C25CB2BEF0060A5DC /* Info.plist */,
+			);
+			path = zebraUITests;
+			sourceTree = "<group>";
+		};
+		EED6426B25CB2C460060A5DC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EED6426C25CB2C580060A5DC /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EED6426C25CB2C580060A5DC /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				EED6426D25CB2C580060A5DC /* Roboto-Medium.ttf */,
+				EED6426E25CB2C580060A5DC /* Roboto-Light.ttf */,
+				EED6426F25CB2C580060A5DC /* Roboto-Regular.ttf */,
+				EED6427025CB2C580060A5DC /* Roboto-MediumItalic.ttf */,
+				EED6427125CB2C580060A5DC /* Roboto-ThinItalic.ttf */,
+				EED6427225CB2C580060A5DC /* Roboto-BoldItalic.ttf */,
+				EED6427325CB2C580060A5DC /* Roboto-LightItalic.ttf */,
+				EED6427425CB2C580060A5DC /* Roboto-Italic.ttf */,
+				EED6427525CB2C580060A5DC /* LICENSE.txt */,
+				EED6427625CB2C580060A5DC /* Roboto-BlackItalic.ttf */,
+				EED6427725CB2C580060A5DC /* Roboto-Bold.ttf */,
+				EED6427825CB2C580060A5DC /* Roboto-Thin.ttf */,
+				EED6427925CB2C580060A5DC /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		EED6428A25CB2D5C0060A5DC /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				EED6428C25CB2D710060A5DC /* Onboarding */,
+				EED6428B25CB2D6A0060A5DC /* MainApp */,
+				EE5668A025D2890D003E592C /* InputText.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		EED6428B25CB2D6A0060A5DC /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				EED0319F25D30A0000F103D0 /* HomeScreen.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		EED6428C25CB2D710060A5DC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EE0CEAA625D0680400C8F950 /* LicenseAgreement */,
+				EED6428D25CB2D8A0060A5DC /* NumberEntry.swift */,
+				EE6173F525D1B8B800BC5314 /* CodeEntry.swift */,
+				EE612B9825D2AF80009EF73E /* Instructions.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED6423925CB2BEE0060A5DC /* zebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED6425F25CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebra" */;
+			buildPhases = (
+				A5821E46493E31BED6469C04 /* [CP] Check Pods Manifest.lock */,
+				340ECEA62BF8BC7257B17B16 /* [CP] Prepare Artifacts */,
+				EED6423625CB2BEE0060A5DC /* Sources */,
+				EED6423725CB2BEE0060A5DC /* Frameworks */,
+				EED6423825CB2BEE0060A5DC /* Resources */,
+				55E08A21C193DF43B96FD69B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zebra;
+			packageProductDependencies = (
+				EE0CEA8825D055ED00C8F950 /* PhoneNumberKit */,
+				EE0CEA9625D058D600C8F950 /* iPhoneNumberField */,
+				EE0CEA9C25D064B800C8F950 /* NavigationStack */,
+				EE612B9325D295E0009EF73E /* SwiftUIX */,
+			);
+			productName = zebra;
+			productReference = EED6423A25CB2BEE0060A5DC /* zebra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EED6424A25CB2BEF0060A5DC /* zebraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED6426225CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebraTests" */;
+			buildPhases = (
+				66149A9F9FD7A9DE45C7CF3B /* [CP] Check Pods Manifest.lock */,
+				EED6424725CB2BEF0060A5DC /* Sources */,
+				EED6424825CB2BEF0060A5DC /* Frameworks */,
+				EED6424925CB2BEF0060A5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED6424D25CB2BEF0060A5DC /* PBXTargetDependency */,
+			);
+			name = zebraTests;
+			productName = zebraTests;
+			productReference = EED6424B25CB2BEF0060A5DC /* zebraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EED6425525CB2BEF0060A5DC /* zebraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED6426525CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebraUITests" */;
+			buildPhases = (
+				F67CCB1FF68C5CE68D21ADE9 /* [CP] Check Pods Manifest.lock */,
+				934DC7EAA822CC97F98485BE /* [CP] Prepare Artifacts */,
+				EED6425225CB2BEF0060A5DC /* Sources */,
+				EED6425325CB2BEF0060A5DC /* Frameworks */,
+				EED6425425CB2BEF0060A5DC /* Resources */,
+				E038A294344DE46CD1D764BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED6425825CB2BEF0060A5DC /* PBXTargetDependency */,
+			);
+			name = zebraUITests;
+			productName = zebraUITests;
+			productReference = EED6425625CB2BEF0060A5DC /* zebraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED6423225CB2BEE0060A5DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EED6423925CB2BEE0060A5DC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EED6424A25CB2BEF0060A5DC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EED6423925CB2BEE0060A5DC;
+					};
+					EED6425525CB2BEF0060A5DC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EED6423925CB2BEE0060A5DC;
+					};
+				};
+			};
+			buildConfigurationList = EED6423525CB2BEE0060A5DC /* Build configuration list for PBXProject "zebra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED6423125CB2BEE0060A5DC;
+			packageReferences = (
+				EE0CEA8725D055ED00C8F950 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+				EE0CEA9525D058D500C8F950 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				EE0CEA9B25D064B800C8F950 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				EE612B9225D295E0009EF73E /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
+			productRefGroup = EED6423B25CB2BEE0060A5DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED6423925CB2BEE0060A5DC /* zebra */,
+				EED6424A25CB2BEF0060A5DC /* zebraTests */,
+				EED6425525CB2BEF0060A5DC /* zebraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED6423825CB2BEE0060A5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED6428525CB2C580060A5DC /* Roboto-Thin.ttf in Resources */,
+				EED6428225CB2C580060A5DC /* LICENSE.txt in Resources */,
+				EED6428625CB2C580060A5DC /* Roboto-Black.ttf in Resources */,
+				EED6428425CB2C580060A5DC /* Roboto-Bold.ttf in Resources */,
+				EED6424525CB2BEF0060A5DC /* Preview Assets.xcassets in Resources */,
+				EED6424225CB2BEF0060A5DC /* Assets.xcassets in Resources */,
+				EED6427F25CB2C580060A5DC /* Roboto-BoldItalic.ttf in Resources */,
+				EED6427C25CB2C580060A5DC /* Roboto-Regular.ttf in Resources */,
+				EED6427E25CB2C580060A5DC /* Roboto-ThinItalic.ttf in Resources */,
+				EED6428025CB2C580060A5DC /* Roboto-LightItalic.ttf in Resources */,
+				EED6428325CB2C580060A5DC /* Roboto-BlackItalic.ttf in Resources */,
+				EED6427B25CB2C580060A5DC /* Roboto-Light.ttf in Resources */,
+				EED6428125CB2C580060A5DC /* Roboto-Italic.ttf in Resources */,
+				EED6427D25CB2C580060A5DC /* Roboto-MediumItalic.ttf in Resources */,
+				EED6427A25CB2C580060A5DC /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6424925CB2BEF0060A5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6425425CB2BEF0060A5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340ECEA62BF8BC7257B17B16 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E08A21C193DF43B96FD69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66149A9F9FD7A9DE45C7CF3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zebraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		934DC7EAA822CC97F98485BE /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5821E46493E31BED6469C04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zebra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E038A294344DE46CD1D764BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67CCB1FF68C5CE68D21ADE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zebra-zebraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED6423625CB2BEE0060A5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0CEAAB25D0683D00C8F950 /* LicenseAgreement2.swift in Sources */,
+				EE612B9925D2AF80009EF73E /* Instructions.swift in Sources */,
+				EE0CEAA225D0653E00C8F950 /* LicenseAgreement.swift in Sources */,
+				EED6428E25CB2D8A0060A5DC /* NumberEntry.swift in Sources */,
+				EED6424025CB2BEE0060A5DC /* ContentView.swift in Sources */,
+				EE6173F625D1B8B800BC5314 /* CodeEntry.swift in Sources */,
+				EED031A025D30A0000F103D0 /* HomeScreen.swift in Sources */,
+				EE0CEAB025D0687700C8F950 /* LicenseAgreement3.swift in Sources */,
+				EED6423E25CB2BEE0060A5DC /* zebraApp.swift in Sources */,
+				EE5668A125D2890D003E592C /* InputText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6424725CB2BEF0060A5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED6425025CB2BEF0060A5DC /* zebraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6425225CB2BEF0060A5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED6425B25CB2BEF0060A5DC /* zebraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EED6424D25CB2BEF0060A5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED6423925CB2BEE0060A5DC /* zebra */;
+			targetProxy = EED6424C25CB2BEF0060A5DC /* PBXContainerItemProxy */;
+		};
+		EED6425825CB2BEF0060A5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED6423925CB2BEE0060A5DC /* zebra */;
+			targetProxy = EED6425725CB2BEF0060A5DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EED6425D25CB2BEF0060A5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EED6425E25CB2BEF0060A5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED6426025CB2BEF0060A5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D617E635225576E3D34E357 /* Pods-zebra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"zebra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = zebra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zebra.zebra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED6426125CB2BEF0060A5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043E14A3C97C49C821746E60 /* Pods-zebra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"zebra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = zebra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zebra.zebra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EED6426325CB2BEF0060A5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FB11969B205DE20AE5CA6E /* Pods-zebraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zebraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zebra.zebraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zebra.app/zebra";
+			};
+			name = Debug;
+		};
+		EED6426425CB2BEF0060A5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9585A57DFA9A96C9193E439C /* Pods-zebraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zebraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zebra.zebraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zebra.app/zebra";
+			};
+			name = Release;
+		};
+		EED6426625CB2BEF0060A5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39EDAA7363E65719A0C0594 /* Pods-zebra-zebraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zebraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zebra.zebraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zebra;
+			};
+			name = Debug;
+		};
+		EED6426725CB2BEF0060A5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F636CB8EF7627CA18CDEEEB /* Pods-zebra-zebraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zebraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zebra.zebraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zebra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED6423525CB2BEE0060A5DC /* Build configuration list for PBXProject "zebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED6425D25CB2BEF0060A5DC /* Debug */,
+				EED6425E25CB2BEF0060A5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED6425F25CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED6426025CB2BEF0060A5DC /* Debug */,
+				EED6426125CB2BEF0060A5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED6426225CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED6426325CB2BEF0060A5DC /* Debug */,
+				EED6426425CB2BEF0060A5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED6426525CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED6426625CB2BEF0060A5DC /* Debug */,
+				EED6426725CB2BEF0060A5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE0CEA8725D055ED00C8F950 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.3;
+			};
+		};
+		EE0CEA9525D058D500C8F950 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+		EE0CEA9B25D064B800C8F950 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		EE612B9225D295E0009EF73E /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE0CEA8825D055ED00C8F950 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CEA8725D055ED00C8F950 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		EE0CEA9625D058D600C8F950 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CEA9525D058D500C8F950 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+		EE0CEA9C25D064B800C8F950 /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE0CEA9B25D064B800C8F950 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
+		EE612B9325D295E0009EF73E /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE612B9225D295E0009EF73E /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EED6423225CB2BEE0060A5DC /* Project object */;
+}
