@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = AppCenter;
+			productName = AppCenter;
 		};
 /* End PBXAggregateTarget section */
 
@@ -80,52 +81,52 @@
 		00DE9485E8027EAE69CF83EF1378D4B3 /* Pods-zebra-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zebra-Info.plist"; sourceTree = "<group>"; };
 		0BC7935D7BB3EE6C2078F19D9218C66E /* ViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewExtensions.swift; path = Introspect/ViewExtensions.swift; sourceTree = "<group>"; };
 		1D3800FBB5954F815E33A9C2E19C176E /* Pods-zebra-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zebra-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FD01294BB7E277EC3363CFDDB052ACF /* Pods-zebra-zebraUITests-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-zebraUITests-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		1FD01294BB7E277EC3363CFDDB052ACF /* Pods-zebra-zebraUITests-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-zebraUITests-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
 		20D85D51BB0776B4D5C4F6F736EB0D6A /* Pods-zebraTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zebraTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		31B7247F01D3967C03719DFAA21766E7 /* Pods_zebra_zebraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zebra_zebraUITests.framework; path = "Pods-zebra-zebraUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B7247F01D3967C03719DFAA21766E7 /* Pods_zebra_zebraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zebra_zebraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33B25C09535C88196E7BDE4561C45F55 /* Pods-zebra-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		33B25C09535C88196E7BDE4561C45F55 /* Pods-zebra-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
 		34697F57C809DB9375818EA7D252BCD1 /* Pods-zebra-zebraUITests-artifacts.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zebra-zebraUITests-artifacts.sh"; sourceTree = "<group>"; };
 		36F4A155C4964E5AB0B9ED08E58D21A9 /* Introspect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Introspect.swift; path = Introspect/Introspect.swift; sourceTree = "<group>"; };
 		37205243C3EDC604229FE5B0495E8D2D /* Pods-zebraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zebraTests.release.xcconfig"; sourceTree = "<group>"; };
-		3891A7D1A0A578806005B481CDC84E2F /* Pods-zebra-zebraUITests-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-zebraUITests-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		3891A7D1A0A578806005B481CDC84E2F /* Pods-zebra-zebraUITests-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-zebraUITests-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
 		3C93C4ED95AA714878AD58CA8D54DE45 /* Introspect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Introspect.debug.xcconfig; sourceTree = "<group>"; };
 		431FD1A883D6DDCA33DB7378529EC992 /* Pods-zebra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zebra.debug.xcconfig"; sourceTree = "<group>"; };
 		474EFE37F52A57BA2E2CA6E6A51E6E2F /* Pods-zebraTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zebraTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B155B4B652640B3A6AE04626C142654 /* Pods_zebraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zebraTests.framework; path = "Pods-zebraTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B155B4B652640B3A6AE04626C142654 /* Pods_zebraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zebraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D631D66BDDD605B8DFE4FEBC681789 /* Introspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Introspect-prefix.pch"; sourceTree = "<group>"; };
-		5997DFEFD2A5FBEA8DCD62253A935164 /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
-		5C5AE947868ED7C58D0F6D519D0B7437 /* Pods-zebra-zebraUITests-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-zebraUITests-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		5997DFEFD2A5FBEA8DCD62253A935164 /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
+		5C5AE947868ED7C58D0F6D519D0B7437 /* Pods-zebra-zebraUITests-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-zebraUITests-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
 		5F33D024C534F4CDB8D82A50143016DE /* UIKitIntrospectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitIntrospectionView.swift; path = Introspect/UIKitIntrospectionView.swift; sourceTree = "<group>"; };
 		648C294FBE7FBCE0883C744731EEE1E9 /* Introspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Introspect-dummy.m"; sourceTree = "<group>"; };
-		6515B7FAEAD9928A0C76F07AFE4C2D94 /* Pods-zebra-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6515B7FAEAD9928A0C76F07AFE4C2D94 /* Pods-zebra-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
 		6D856016CA03F4E8C353BBA06EFD7CBA /* Introspect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Introspect-umbrella.h"; sourceTree = "<group>"; };
 		73836BB4F2611FD0A68AFDA22D66F8BC /* Pods-zebra-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zebra-acknowledgements.markdown"; sourceTree = "<group>"; };
-		78E47AA2D4D91C3A4E2B38E658F81D5D /* Pods_zebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zebra.framework; path = "Pods-zebra.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E47AA2D4D91C3A4E2B38E658F81D5D /* Pods_zebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A21A05E69638BA6FBBCA87A93D5A0D /* Pods-zebraTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zebraTests-dummy.m"; sourceTree = "<group>"; };
-		7A072CCEFD4F995D7AE4E7A0DD0137D3 /* Pods-zebra-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		7A072CCEFD4F995D7AE4E7A0DD0137D3 /* Pods-zebra-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
 		7B52CB463481F5BA81298173E605A7EA /* Pods-zebra-zebraUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zebra-zebraUITests-frameworks.sh"; sourceTree = "<group>"; };
 		7C4A729C58F4321A24096329AEFAFAF5 /* UIKitIntrospectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitIntrospectionViewController.swift; path = Introspect/UIKitIntrospectionViewController.swift; sourceTree = "<group>"; };
 		7CFDA3C2C928EBC5E77BFDAA94E027B4 /* Pods-zebra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zebra-dummy.m"; sourceTree = "<group>"; };
-		7DFF1536633DC2F1BD6EAECE0743C5AA /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
+		7DFF1536633DC2F1BD6EAECE0743C5AA /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
 		83E92A2DB48BA59E9E0A400068A247EC /* Introspect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Introspect.release.xcconfig; sourceTree = "<group>"; };
 		8858132B7D10399F9375966F57B62B45 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
 		89D7EBC289D6EE998D3BE3DEC0603996 /* Pods-zebra-zebraUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zebra-zebraUITests-dummy.m"; sourceTree = "<group>"; };
 		8A4CB1880345EA12E7FEF6A532248493 /* Pods-zebra-zebraUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zebra-zebraUITests-umbrella.h"; sourceTree = "<group>"; };
 		994F080CBCBAEDF174860A87CC3C7DB7 /* Pods-zebra-zebraUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zebra-zebraUITests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07584883DB8F18CA2C5FAFD683610BF /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
 		A1B80FA7260083FDCA95E4FEE4DF13DE /* Pods-zebra-zebraUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zebra-zebraUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE48AE145338545DE5D72943A58F47ED /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
+		AE48AE145338545DE5D72943A58F47ED /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
 		B69E32F57780A41556F7BF8B86203FD5 /* Pods-zebra-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zebra-frameworks.sh"; sourceTree = "<group>"; };
 		BC78187AB825DDE1871BA9E466FC9AB9 /* Pods-zebra-zebraUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zebra-zebraUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C39B319515D1984F35A1A92302515063 /* Pods-zebra-zebraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zebra-zebraUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C42863FD3AF5FD4148DA42FC015D626A /* Pods-zebraTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zebraTests-Info.plist"; sourceTree = "<group>"; };
 		C9C84D6E060A13325214F021AA392253 /* Pods-zebra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zebra.modulemap"; sourceTree = "<group>"; };
 		CD8EE1954A50CF23783660821C73A994 /* Pods-zebra-artifacts.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zebra-artifacts.sh"; sourceTree = "<group>"; };
-		CEFE8DA026CFAE8E0BB5891F1E564335 /* Pods-zebra-zebraUITests-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-zebraUITests-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		CEFE8DA026CFAE8E0BB5891F1E564335 /* Pods-zebra-zebraUITests-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-zebraUITests-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
 		D08C339897249C1E24F17DB3CCE53958 /* Pods-zebraTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zebraTests-umbrella.h"; sourceTree = "<group>"; };
-		D0A70003FD5E49B30CA83DAAFE03116B /* Introspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Introspect.framework; path = Introspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A70003FD5E49B30CA83DAAFE03116B /* Introspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Introspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA18BA4F1B9A1605EFB43BEE0587EC08 /* Pods-zebraTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zebraTests.modulemap"; sourceTree = "<group>"; };
 		E3EFC79254749ADA8C35E52A414DC652 /* Pods-zebra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zebra-umbrella.h"; sourceTree = "<group>"; };
 		EAD1944CBC86F8B3911C3B1CF5CC053D /* Pods-zebra-zebraUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zebra-zebraUITests-Info.plist"; sourceTree = "<group>"; };
@@ -135,7 +136,7 @@
 		F54579FF11CE2E08BD80D857F591427E /* Introspect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Introspect.modulemap; sourceTree = "<group>"; };
 		F62248AF1489A1D7A00BA700FE2D14F2 /* Pods-zebraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zebraTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7B1A3E1A30888CD8B6E5D22ED8E60F6 /* AppKitIntrospectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppKitIntrospectionView.swift; path = Introspect/AppKitIntrospectionView.swift; sourceTree = "<group>"; };
-		F92B9B34EBBDAD1F73E727ED30BE8874 /* Pods-zebra-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zebra-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		F92B9B34EBBDAD1F73E727ED30BE8874 /* Pods-zebra-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcfilelist; path = "Pods-zebra-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +228,6 @@
 				0BC7935D7BB3EE6C2078F19D9218C66E /* ViewExtensions.swift */,
 				5D951D99B8C442750838DBA8F72D3149 /* Support Files */,
 			);
-			name = Introspect;
 			path = Introspect;
 			sourceTree = "<group>";
 		};
@@ -341,7 +341,6 @@
 				0DCD30C6D171A4EE799A9BA1E20FEB57 /* Crashes */,
 				554998D42B12CA0857692CCBB5804D28 /* Support Files */,
 			);
-			name = AppCenter;
 			path = AppCenter;
 			sourceTree = "<group>";
 		};
@@ -707,7 +706,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -877,7 +876,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
