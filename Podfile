@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 project 'zebra.xcodeproj'
-=======
-project 'zebra/zebra.xcodeproj'
->>>>>>> 988c7b5a1fbe656c885ee679bc3601aea47d63e2
 
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
