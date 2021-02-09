@@ -1,0 +1,27 @@
+PODS:
+  - AppCenter (4.1.0):
+    - AppCenter/Analytics (= 4.1.0)
+    - AppCenter/Crashes (= 4.1.0)
+  - AppCenter/Analytics (4.1.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.1.0)
+  - AppCenter/Crashes (4.1.0):
+    - AppCenter/Core
+  - Introspect (0.1.2)
+
+DEPENDENCIES:
+  - AppCenter
+  - Introspect
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+    - Introspect
+
+SPEC CHECKSUMS:
+  AppCenter: 8832b158d17e54845c3b88a91076218f0b07174d
+  Introspect: 85a29d2c5ee4d3d15469ad0b75fd8839f3e72674
+
+PODFILE CHECKSUM: d4c5f465bf3cf70e8714ac21518387c495b82393
+
+COCOAPODS: 1.10.1

@@ -10,14 +10,14 @@
 		28C0281F967EB876E778DF6A /* Pods_zebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A1D5AF6A1215522654B44C /* Pods_zebra.framework */; };
 		442CE373CD5CB6CE316611C0 /* Pods_zebraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3995E1843764567A6B16BD /* Pods_zebraTests.framework */; };
 		65F414B88F965C9BF8736A33 /* Pods_zebra_zebraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB9C94E0BF25C071930A935 /* Pods_zebra_zebraUITests.framework */; };
-		EE0CEA8925D055ED00C8F950 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA8825D055ED00C8F950 /* PhoneNumberKit */; };
-		EE0CEA9725D058D600C8F950 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA9625D058D600C8F950 /* iPhoneNumberField */; };
-		EE0CEA9D25D064B800C8F950 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA9C25D064B800C8F950 /* NavigationStack */; };
+		EE0CEA8925D055ED00C8F950 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA8825D055ED00C8F950 /* SwiftPackageProductDependency */; };
+		EE0CEA9725D058D600C8F950 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA9625D058D600C8F950 /* SwiftPackageProductDependency */; };
+		EE0CEA9D25D064B800C8F950 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = EE0CEA9C25D064B800C8F950 /* SwiftPackageProductDependency */; };
 		EE0CEAA225D0653E00C8F950 /* LicenseAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CEAA125D0653E00C8F950 /* LicenseAgreement.swift */; };
 		EE0CEAAB25D0683D00C8F950 /* LicenseAgreement2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CEAAA25D0683D00C8F950 /* LicenseAgreement2.swift */; };
 		EE0CEAB025D0687700C8F950 /* LicenseAgreement3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CEAAF25D0687700C8F950 /* LicenseAgreement3.swift */; };
 		EE5668A125D2890D003E592C /* InputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5668A025D2890D003E592C /* InputText.swift */; };
-		EE612B9425D295E0009EF73E /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = EE612B9325D295E0009EF73E /* SwiftUIX */; };
+		EE612B9425D295E0009EF73E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = EE612B9325D295E0009EF73E /* SwiftPackageProductDependency */; };
 		EE612B9925D2AF80009EF73E /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE612B9825D2AF80009EF73E /* Instructions.swift */; };
 		EE6173F625D1B8B800BC5314 /* CodeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6173F525D1B8B800BC5314 /* CodeEntry.swift */; };
 		EED031A025D30A0000F103D0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0319F25D30A0000F103D0 /* HomeScreen.swift */; };
@@ -110,10 +110,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0CEA8925D055ED00C8F950 /* PhoneNumberKit in Frameworks */,
-				EE0CEA9D25D064B800C8F950 /* NavigationStack in Frameworks */,
-				EE0CEA9725D058D600C8F950 /* iPhoneNumberField in Frameworks */,
-				EE612B9425D295E0009EF73E /* SwiftUIX in Frameworks */,
+				EE0CEA8925D055ED00C8F950 /* BuildFile in Frameworks */,
+				EE0CEA9D25D064B800C8F950 /* BuildFile in Frameworks */,
+				EE0CEA9725D058D600C8F950 /* BuildFile in Frameworks */,
+				EE612B9425D295E0009EF73E /* BuildFile in Frameworks */,
 				28C0281F967EB876E778DF6A /* Pods_zebra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +305,6 @@
 			buildConfigurationList = EED6425F25CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebra" */;
 			buildPhases = (
 				A5821E46493E31BED6469C04 /* [CP] Check Pods Manifest.lock */,
-				340ECEA62BF8BC7257B17B16 /* [CP] Prepare Artifacts */,
 				EED6423625CB2BEE0060A5DC /* Sources */,
 				EED6423725CB2BEE0060A5DC /* Frameworks */,
 				EED6423825CB2BEE0060A5DC /* Resources */,
@@ -317,10 +316,10 @@
 			);
 			name = zebra;
 			packageProductDependencies = (
-				EE0CEA8825D055ED00C8F950 /* PhoneNumberKit */,
-				EE0CEA9625D058D600C8F950 /* iPhoneNumberField */,
-				EE0CEA9C25D064B800C8F950 /* NavigationStack */,
-				EE612B9325D295E0009EF73E /* SwiftUIX */,
+				EE0CEA8825D055ED00C8F950 /* SwiftPackageProductDependency */,
+				EE0CEA9625D058D600C8F950 /* SwiftPackageProductDependency */,
+				EE0CEA9C25D064B800C8F950 /* SwiftPackageProductDependency */,
+				EE612B9325D295E0009EF73E /* SwiftPackageProductDependency */,
 			);
 			productName = zebra;
 			productReference = EED6423A25CB2BEE0060A5DC /* zebra.app */;
@@ -350,7 +349,6 @@
 			buildConfigurationList = EED6426525CB2BEF0060A5DC /* Build configuration list for PBXNativeTarget "zebraUITests" */;
 			buildPhases = (
 				F67CCB1FF68C5CE68D21ADE9 /* [CP] Check Pods Manifest.lock */,
-				934DC7EAA822CC97F98485BE /* [CP] Prepare Artifacts */,
 				EED6425225CB2BEF0060A5DC /* Sources */,
 				EED6425325CB2BEF0060A5DC /* Frameworks */,
 				EED6425425CB2BEF0060A5DC /* Resources */,
@@ -398,10 +396,10 @@
 			);
 			mainGroup = EED6423125CB2BEE0060A5DC;
 			packageReferences = (
-				EE0CEA8725D055ED00C8F950 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
-				EE0CEA9525D058D500C8F950 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
-				EE0CEA9B25D064B800C8F950 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
-				EE612B9225D295E0009EF73E /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				EE0CEA8725D055ED00C8F950 /* RemoteSwiftPackageReference */,
+				EE0CEA9525D058D500C8F950 /* RemoteSwiftPackageReference */,
+				EE0CEA9B25D064B800C8F950 /* RemoteSwiftPackageReference */,
+				EE612B9225D295E0009EF73E /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = EED6423B25CB2BEE0060A5DC /* Products */;
 			projectDirPath = "";
@@ -454,23 +452,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		340ECEA62BF8BC7257B17B16 /* [CP] Prepare Artifacts */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-artifacts-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Prepare Artifacts";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-artifacts-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zebra/Pods-zebra-artifacts.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		55E08A21C193DF43B96FD69B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -508,23 +489,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		934DC7EAA822CC97F98485BE /* [CP] Prepare Artifacts */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Prepare Artifacts";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zebra-zebraUITests/Pods-zebra-zebraUITests-artifacts.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5821E46493E31BED6469C04 /* [CP] Check Pods Manifest.lock */ = {
@@ -926,7 +890,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EE0CEA8725D055ED00C8F950 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+		EE0CEA8725D055ED00C8F950 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
 			requirement = {
@@ -934,7 +898,7 @@
 				minimumVersion = 3.3.3;
 			};
 		};
-		EE0CEA9525D058D500C8F950 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+		EE0CEA9525D058D500C8F950 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
 			requirement = {
@@ -942,7 +906,7 @@
 				minimumVersion = 0.6.1;
 			};
 		};
-		EE0CEA9B25D064B800C8F950 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+		EE0CEA9B25D064B800C8F950 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
 			requirement = {
@@ -950,7 +914,7 @@
 				minimumVersion = 1.0.2;
 			};
 		};
-		EE612B9225D295E0009EF73E /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+		EE612B9225D295E0009EF73E /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
 			requirement = {
@@ -961,24 +925,24 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EE0CEA8825D055ED00C8F950 /* PhoneNumberKit */ = {
+		EE0CEA8825D055ED00C8F950 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE0CEA8725D055ED00C8F950 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			package = EE0CEA8725D055ED00C8F950 /* RemoteSwiftPackageReference */;
 			productName = PhoneNumberKit;
 		};
-		EE0CEA9625D058D600C8F950 /* iPhoneNumberField */ = {
+		EE0CEA9625D058D600C8F950 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE0CEA9525D058D500C8F950 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			package = EE0CEA9525D058D500C8F950 /* RemoteSwiftPackageReference */;
 			productName = iPhoneNumberField;
 		};
-		EE0CEA9C25D064B800C8F950 /* NavigationStack */ = {
+		EE0CEA9C25D064B800C8F950 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE0CEA9B25D064B800C8F950 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			package = EE0CEA9B25D064B800C8F950 /* RemoteSwiftPackageReference */;
 			productName = NavigationStack;
 		};
-		EE612B9325D295E0009EF73E /* SwiftUIX */ = {
+		EE612B9325D295E0009EF73E /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE612B9225D295E0009EF73E /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			package = EE612B9225D295E0009EF73E /* RemoteSwiftPackageReference */;
 			productName = SwiftUIX;
 		};
 /* End XCSwiftPackageProductDependency section */

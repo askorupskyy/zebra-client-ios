@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3282A5B2437E609EEB85861D7ECE717"
-               BuildableName = "AppCenter"
-               BlueprintName = "AppCenter"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+               BlueprintIdentifier = "9282FA7BA97CA0BA4BC3409448D1D591"
+               BuildableName = "Pods_zebraTests.framework"
+               BlueprintName = "Pods-zebraTests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
